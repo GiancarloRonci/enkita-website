@@ -21,6 +21,7 @@ const T = {
     'hero.btn.secondary': 'Scopri le funzionalità',
     'hero.coming-soon': 'Disponibile presto su Google Play',
     'hero.img.alt': 'Screenshot ParloEnglish — schermata principale',
+    'hero.img.src': 'images/screenshot1.jpg',
 
     'features.title': 'Tutto quello che ti serve per imparare',
     'features.sub': 'Progettato per chi vuole studiare con costanza, senza perdere tempo.',
@@ -127,6 +128,7 @@ const T = {
     'hero.btn.secondary': 'Discover features',
     'hero.coming-soon': 'Coming soon on Google Play',
     'hero.img.alt': 'ParloEnglish screenshot — main screen',
+    'hero.img.src': 'images/screenshot1_en.jpg',
 
     'features.title': 'Everything you need to learn',
     'features.sub': 'Designed for those who want to study consistently, without wasting time.',
@@ -240,6 +242,11 @@ function applyLang(lang) {
   document.querySelectorAll('[data-i18n-alt]').forEach(el => {
     const key = el.dataset.i18nAlt;
     if (t[key] !== undefined) el.alt = t[key];
+  });
+
+  document.querySelectorAll('[data-i18n-src]').forEach(el => {
+    const key = el.dataset.i18nSrc;
+    if (t[key] !== undefined) el.src = t[key];
   });
 
   const titleKey = document.documentElement.dataset.titleKey;
