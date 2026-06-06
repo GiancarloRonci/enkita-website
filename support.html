@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="it" data-title-key="support.title">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,42 +11,46 @@
   <nav>
     <a class="nav-logo" href="index.html">ParloEnglish 🇮🇹🇬🇧</a>
     <ul class="nav-links">
-      <li><a href="index.html#features">Funzionalità</a></li>
-      <li><a href="index.html#download">Download</a></li>
-      <li><a href="guide.html">Guida</a></li>
-      <li><a href="support.html">Supporto</a></li>
-      <li><a href="privacy-policy.html">Privacy</a></li>
+      <li><a href="index.html#features" data-i18n="nav.features">Funzionalità</a></li>
+      <li><a href="index.html#download" data-i18n="nav.download">Download</a></li>
+      <li><a href="guide.html" data-i18n="nav.guide">Guida</a></li>
+      <li><a href="support.html" data-i18n="nav.support">Supporto</a></li>
+      <li><a href="privacy-policy.html" data-i18n="nav.privacy">Privacy</a></li>
+      <li class="nav-lang">
+        <button class="lang-btn" data-lang="it" onclick="setLang('it')">🇮🇹</button>
+        <button class="lang-btn" data-lang="en" onclick="setLang('en')">🇬🇧</button>
+      </li>
     </ul>
   </nav>
 
   <div class="page-header">
-    <h1>Supporto</h1>
-    <p>Hai bisogno di aiuto? Siamo qui.</p>
+    <h1 data-i18n="support.header.h1">Supporto</h1>
+    <p data-i18n="support.header.p">Hai bisogno di aiuto? Siamo qui.</p>
   </div>
 
   <div class="page-content">
 
-    <h2>Contattaci</h2>
-    <p>Per qualsiasi problema, domanda o suggerimento scrivi a:<br />
+    <h2 data-i18n="support.contact.h2">Contattaci</h2>
+    <p><span data-i18n="support.contact.p1">Per qualsiasi problema, domanda o suggerimento scrivi a:</span><br />
     <strong><a href="mailto:giancarlo.ronci@gmail.com">giancarlo.ronci@gmail.com</a></strong></p>
-    <p>Risponderemo entro 48 ore lavorative.</p>
+    <p data-i18n="support.contact.p2">Risponderemo entro 48 ore lavorative.</p>
 
-    <h2>Domande frequenti</h2>
+    <h2 data-i18n="support.faq.h2">Domande frequenti</h2>
 
-    <h3>Come funziona il sistema di ripetizione?</h3>
-    <p>Le carte che hai risposto correttamente vengono posticipate, mentre quelle difficili tornano più spesso. L'obiettivo è farti rivedere ogni parola nel momento in cui stai per dimenticarla.</p>
+    <h3 data-i18n="support.faq.1.h3">Come funziona il sistema di ripetizione?</h3>
+    <p data-i18n="support.faq.1.p">Le carte che hai risposto correttamente vengono posticipate, mentre quelle difficili tornano più spesso. L'obiettivo è farti rivedere ogni parola nel momento in cui stai per dimenticarla.</p>
 
-    <h3>Posso aggiungere parole personalizzate?</h3>
-    <p>Sì. Nella schermata principale puoi accedere alla sezione "Mie Carte" per aggiungere il tuo vocabolario personale e studiarlo insieme al vocabolario di sistema.</p>
+    <h3 data-i18n="support.faq.2.h3">Posso aggiungere parole personalizzate?</h3>
+    <p data-i18n="support.faq.2.p">Sì. Nella schermata principale puoi accedere alla sezione "Mie Carte" per aggiungere il tuo vocabolario personale e studiarlo insieme al vocabolario di sistema.</p>
 
-    <h3>Come elimino il mio account?</h3>
-    <p>Vai su <strong>Impostazioni → Elimina account</strong> all'interno dell'app. Tutti i tuoi dati verranno rimossi in modo permanente entro 30 giorni. Questa operazione è irreversibile.</p>
+    <h3 data-i18n="support.faq.3.h3">Come elimino il mio account?</h3>
+    <p data-i18n-html="support.faq.3.p">Vai su <strong>Impostazioni → Elimina account</strong> all'interno dell'app. Tutti i tuoi dati verranno rimossi in modo permanente entro 30 giorni. Questa operazione è irreversibile.</p>
 
-    <h3>Ho dimenticato la password, come la recupero?</h3>
-    <p>Nella schermata di login, tocca <strong>"Password dimenticata?"</strong> e inserisci la tua email. Riceverai un link per reimpostare la password.</p>
+    <h3 data-i18n="support.faq.4.h3">Ho dimenticato la password, come la recupero?</h3>
+    <p data-i18n-html="support.faq.4.p">Nella schermata di login, tocca <strong>"Password dimenticata?"</strong> e inserisci la tua email. Riceverai un link per reimpostare la password.</p>
 
-    <h3>L'app è gratuita?</h3>
-    <p>ParloEnglish offre funzionalità gratuite per tutti gli utenti. Alcune funzioni avanzate saranno disponibili con l'abbonamento <strong>ParloEnglish Pro</strong>, in arrivo prossimamente.</p>
+    <h3 data-i18n="support.faq.5.h3">L'app è gratuita?</h3>
+    <p data-i18n-html="support.faq.5.p">ParloEnglish offre funzionalità gratuite per tutti gli utenti. Alcune funzioni avanzate saranno disponibili con l'abbonamento <strong>ParloEnglish Pro</strong>, in arrivo prossimamente.</p>
 
   </div>
 
@@ -54,10 +58,11 @@
     <div class="footer-links">
       <a href="index.html">Home</a>
       <a href="privacy-policy.html">Privacy Policy</a>
-      <a href="mailto:giancarlo.ronci@gmail.com">Contatti</a>
+      <a href="mailto:giancarlo.ronci@gmail.com" data-i18n="footer.contact">Contatti</a>
     </div>
     <p class="footer-copy">© 2026 Giancarlo Ronci — ParloEnglish</p>
   </footer>
 
+  <script src="js/i18n.js"></script>
 </body>
 </html>

@@ -303,6 +303,29 @@ footer a:hover {
   opacity: 0.6;
 }
 
+/* LANGUAGE SWITCHER (nav) */
+.nav-lang {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.nav-lang .lang-btn {
+  padding: 4px 8px;
+  border-radius: 100px;
+  border: 1.5px solid var(--blue-primary);
+  background: transparent;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+  line-height: 1;
+}
+
+.nav-lang .lang-btn.active,
+.nav-lang .lang-btn:hover {
+  background: var(--blue-light);
+}
+
 /* RESPONSIVE */
 @media (max-width: 768px) {
   .hero {
