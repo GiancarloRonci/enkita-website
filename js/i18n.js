@@ -15,7 +15,7 @@ const T = {
     'footer.contact': 'Contatti',
 
     'hero.badge': 'App Android',
-    'hero.h1': 'Potenzia il tuo<br /><span>vocabolario inglese</span>,<br />ogni giorno, a modo tuo.',
+    'hero.h1': 'Potenzia il tuo<br /><span>vocabolario inglese o italiano</span>,<br />ogni giorno, a modo tuo.',
     'hero.p': 'Sessioni di flashcard personalizzate per livello, categoria e direzione di studio. Tieni traccia dei tuoi progressi e raggiungi i tuoi obiettivi quotidiani.',
     'hero.btn.primary': "Scarica l'app",
     'hero.btn.secondary': 'Scopri le funzionalità',
@@ -122,7 +122,7 @@ const T = {
     'footer.contact': 'Contact',
 
     'hero.badge': 'Android App',
-    'hero.h1': 'Boost your<br /><span>English vocabulary</span>,<br />every day, your way.',
+    'hero.h1': 'Boost your<br /><span>English or Italian vocabulary</span>,<br />every day, your way.',
     'hero.p': 'Personalized flashcard sessions by level, category, and study direction. Track your progress and reach your daily goals.',
     'hero.btn.primary': 'Download the app',
     'hero.btn.secondary': 'Discover features',
