@@ -4,6 +4,7 @@ const T = {
     'index.meta': "ParloEnglish è l'app per imparare l'inglese con sessioni di flashcard personalizzate. Scegli livello, categorie e direzione di studio.",
     'guide.title': 'Guida utente — ParloEnglish',
     'support.title': 'Supporto — ParloEnglish',
+    'whatsnew.title': 'Novità — ParloEnglish',
 
     'nav.features': 'Funzionalità',
     'nav.pricing': 'Prezzi',
@@ -11,6 +12,10 @@ const T = {
     'nav.guide': 'Guida',
     'nav.support': 'Supporto',
     'nav.privacy': 'Privacy',
+    'nav.whatsnew': 'Novità',
+
+    'whatsnew.header.h1': 'Novità',
+    'whatsnew.header.p': 'Le ultime novità introdotte in ParloEnglish',
 
     'footer.support': 'Supporto',
     'footer.contact': 'Contatti',
@@ -119,6 +124,7 @@ const T = {
     'index.meta': 'ParloEnglish is the app to learn English with personalized flashcard sessions. Choose level, categories, and study direction.',
     'guide.title': 'User Guide — ParloEnglish',
     'support.title': 'Support — ParloEnglish',
+    'whatsnew.title': "What's New — ParloEnglish",
 
     'nav.features': 'Features',
     'nav.pricing': 'Pricing',
@@ -126,6 +132,10 @@ const T = {
     'nav.guide': 'Guide',
     'nav.support': 'Support',
     'nav.privacy': 'Privacy',
+    'nav.whatsnew': "What's New",
+
+    'whatsnew.header.h1': "What's New",
+    'whatsnew.header.p': 'The latest updates introduced in ParloEnglish',
 
     'footer.support': 'Support',
     'footer.contact': 'Contact',
