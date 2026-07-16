@@ -25,7 +25,7 @@ const T = {
     'hero.p': 'Sessioni di flashcard personalizzate per livello, categoria e direzione di studio. Tieni traccia dei tuoi progressi e raggiungi i tuoi obiettivi quotidiani.',
     'hero.btn.primary': "Scarica l'app",
     'hero.btn.secondary': 'Scopri le funzionalità',
-    'hero.coming-soon': 'Disponibile presto su Google Play',
+    'hero.available-now': 'Disponibile ora su Google Play',
     'hero.img.alt': 'Screenshot Enkita — schermata principale',
     'hero.img.src': 'images/screenshot1.jpg',
 
@@ -52,8 +52,8 @@ const T = {
     'pricing.p2': 'Nei prossimi mesi introdurremo un abbonamento mensile, con un costo molto ridotto.',
 
     'download.h2': 'Pronto a iniziare?',
-    'download.p': "Enkita sarà disponibile presto su Google Play Store.<br /><strong>L'app è gratuita.</strong> Scaricala e inizia a studiare senza nessun costo.",
-    'download.badge': '🚀 Coming soon on Google Play',
+    'download.p': "Enkita è disponibile ora su Google Play Store.<br /><strong>L'app è gratuita.</strong> Scaricala e inizia a studiare senza nessun costo.",
+    'download.badge': '▶️ Scarica su Google Play',
 
     'guide.header.h1': "Guida all'uso",
     'guide.header.p': 'Tutto quello che devi sapere per usare Enkita al meglio.',
@@ -145,7 +145,7 @@ const T = {
     'hero.p': 'Personalized flashcard sessions by level, category, and study direction. Track your progress and reach your daily goals.',
     'hero.btn.primary': 'Download the app',
     'hero.btn.secondary': 'Discover features',
-    'hero.coming-soon': 'Coming soon on Google Play',
+    'hero.available-now': 'Available now on Google Play',
     'hero.img.alt': 'Enkita screenshot — main screen',
     'hero.img.src': 'images/screenshot1_en.jpeg',
 
@@ -172,8 +172,8 @@ const T = {
     'pricing.p2': "In the coming months we'll introduce a monthly subscription, at a very reduced cost.",
 
     'download.h2': 'Ready to start?',
-    'download.p': 'Enkita will be available soon on Google Play Store.<br /><strong>The app is free.</strong> Download it and start studying at no cost.',
-    'download.badge': '🚀 Coming soon on Google Play',
+    'download.p': 'Enkita is now available on Google Play Store.<br /><strong>The app is free.</strong> Download it and start studying at no cost.',
+    'download.badge': '▶️ Get it on Google Play',
 
     'guide.header.h1': 'User Guide',
     'guide.header.p': 'Everything you need to know to get the most out of Enkita.',
