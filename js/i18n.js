@@ -1,10 +1,10 @@
 const T = {
   it: {
-    'index.title': "ParloEnglish — Impara l'inglese con le flashcard",
-    'index.meta': "ParloEnglish è l'app per imparare l'inglese con sessioni di flashcard personalizzate. Scegli livello, categorie e direzione di studio.",
-    'guide.title': 'Guida utente — ParloEnglish',
-    'support.title': 'Supporto — ParloEnglish',
-    'whatsnew.title': 'Novità — ParloEnglish',
+    'index.title': "Enkita — Impara l'inglese con le flashcard",
+    'index.meta': "Enkita è l'app per imparare l'inglese con sessioni di flashcard personalizzate. Scegli livello, categorie e direzione di studio.",
+    'guide.title': 'Guida utente — Enkita',
+    'support.title': 'Supporto — Enkita',
+    'whatsnew.title': 'Novità — Enkita',
 
     'nav.features': 'Funzionalità',
     'nav.pricing': 'Prezzi',
@@ -15,7 +15,7 @@ const T = {
     'nav.whatsnew': 'Novità',
 
     'whatsnew.header.h1': 'Novità',
-    'whatsnew.header.p': 'Le ultime novità introdotte in ParloEnglish',
+    'whatsnew.header.p': 'Le ultime novità introdotte in Enkita',
 
     'footer.support': 'Supporto',
     'footer.contact': 'Contatti',
@@ -26,7 +26,7 @@ const T = {
     'hero.btn.primary': "Scarica l'app",
     'hero.btn.secondary': 'Scopri le funzionalità',
     'hero.coming-soon': 'Disponibile presto su Google Play',
-    'hero.img.alt': 'Screenshot ParloEnglish — schermata principale',
+    'hero.img.alt': 'Screenshot Enkita — schermata principale',
     'hero.img.src': 'images/screenshot1.jpg',
 
     'features.title': 'Tutto quello che ti serve per imparare',
@@ -48,19 +48,19 @@ const T = {
     'pricing.sub': 'Semplice e trasparente: oggi gratis, e resterà alla portata di tutti anche in futuro.',
     'pricing.badge': 'Gratis ora',
     'pricing.h3': "L'app è gratuita",
-    'pricing.p1': 'Scarica ParloEnglish e inizia subito a studiare, senza alcun costo.',
+    'pricing.p1': 'Scarica Enkita e inizia subito a studiare, senza alcun costo.',
     'pricing.p2': 'Nei prossimi mesi introdurremo un abbonamento mensile, con un costo molto ridotto.',
 
     'download.h2': 'Pronto a iniziare?',
-    'download.p': "ParloEnglish sarà disponibile presto su Google Play Store.<br /><strong>L'app è gratuita.</strong> Scaricala e inizia a studiare senza nessun costo.",
+    'download.p': "Enkita sarà disponibile presto su Google Play Store.<br /><strong>L'app è gratuita.</strong> Scaricala e inizia a studiare senza nessun costo.",
     'download.badge': '🚀 Coming soon on Google Play',
 
     'guide.header.h1': "Guida all'uso",
-    'guide.header.p': 'Tutto quello che devi sapere per usare ParloEnglish al meglio.',
-    'guide.s1.h2': 'Benvenuto in ParloEnglish',
+    'guide.header.p': 'Tutto quello che devi sapere per usare Enkita al meglio.',
+    'guide.s1.h2': 'Benvenuto in Enkita',
     'guide.s1.p': 'Studia il vocabolario inglese con le flashcard e il sistema di ripetizione spaziata.',
     'guide.s2.h2': "Filosofia dell'app",
-    'guide.s2.li1': "ParloEnglish è pensata per utenti italiani che vogliono imparare o consolidare l'inglese partendo dalla propria lingua madre.",
+    'guide.s2.li1': "Enkita è pensata per utenti italiani che vogliono imparare o consolidare l'inglese partendo dalla propria lingua madre.",
     'guide.s2.li2': 'Il metodo si basa sulla ripetizione attiva di vocaboli, espressioni notevoli e strutture di frasi della lingua inglese.',
     'guide.s2.li3': "L'app è particolarmente adatta a chi ha un livello attuale di inglese pari a A1 o A2, e vuole costruire un vocabolario solido passo dopo passo.",
     'guide.s2.li4': 'Studiando con costanza ogni giorno, anche solo 20 minuti, si ottengono risultati concreti nel medio-lungo periodo.',
@@ -116,15 +116,15 @@ const T = {
     'support.faq.4.h3': 'Ho dimenticato la password, come la recupero?',
     'support.faq.4.p': 'Nella schermata di login, tocca <strong>"Password dimenticata?"</strong> e inserisci la tua email. Riceverai un link per reimpostare la password.',
     'support.faq.5.h3': "L'app è gratuita?",
-    'support.faq.5.p': 'ParloEnglish offre funzionalità gratuite per tutti gli utenti. Alcune funzioni avanzate saranno disponibili con l\'abbonamento <strong>ParloEnglish Pro</strong>, in arrivo prossimamente.',
+    'support.faq.5.p': 'Enkita offre funzionalità gratuite per tutti gli utenti. Alcune funzioni avanzate saranno disponibili con l\'abbonamento <strong>Enkita Pro</strong>, in arrivo prossimamente.',
   },
 
   en: {
-    'index.title': 'ParloEnglish — Learn English with Flashcards',
-    'index.meta': 'ParloEnglish is the app to learn English with personalized flashcard sessions. Choose level, categories, and study direction.',
-    'guide.title': 'User Guide — ParloEnglish',
-    'support.title': 'Support — ParloEnglish',
-    'whatsnew.title': "What's New — ParloEnglish",
+    'index.title': 'Enkita — Learn English with Flashcards',
+    'index.meta': 'Enkita is the app to learn English with personalized flashcard sessions. Choose level, categories, and study direction.',
+    'guide.title': 'User Guide — Enkita',
+    'support.title': 'Support — Enkita',
+    'whatsnew.title': "What's New — Enkita",
 
     'nav.features': 'Features',
     'nav.pricing': 'Pricing',
@@ -135,7 +135,7 @@ const T = {
     'nav.whatsnew': "What's New",
 
     'whatsnew.header.h1': "What's New",
-    'whatsnew.header.p': 'The latest updates introduced in ParloEnglish',
+    'whatsnew.header.p': 'The latest updates introduced in Enkita',
 
     'footer.support': 'Support',
     'footer.contact': 'Contact',
@@ -146,7 +146,7 @@ const T = {
     'hero.btn.primary': 'Download the app',
     'hero.btn.secondary': 'Discover features',
     'hero.coming-soon': 'Coming soon on Google Play',
-    'hero.img.alt': 'ParloEnglish screenshot — main screen',
+    'hero.img.alt': 'Enkita screenshot — main screen',
     'hero.img.src': 'images/screenshot1_en.jpeg',
 
     'features.title': 'Everything you need to learn',
@@ -168,19 +168,19 @@ const T = {
     'pricing.sub': 'Simple and transparent: free today, and it will stay affordable for everyone in the future.',
     'pricing.badge': 'Free for now',
     'pricing.h3': 'The app is free',
-    'pricing.p1': 'Download ParloEnglish and start studying right away, at no cost.',
+    'pricing.p1': 'Download Enkita and start studying right away, at no cost.',
     'pricing.p2': "In the coming months we'll introduce a monthly subscription, at a very reduced cost.",
 
     'download.h2': 'Ready to start?',
-    'download.p': 'ParloEnglish will be available soon on Google Play Store.<br /><strong>The app is free.</strong> Download it and start studying at no cost.',
+    'download.p': 'Enkita will be available soon on Google Play Store.<br /><strong>The app is free.</strong> Download it and start studying at no cost.',
     'download.badge': '🚀 Coming soon on Google Play',
 
     'guide.header.h1': 'User Guide',
-    'guide.header.p': 'Everything you need to know to get the most out of ParloEnglish.',
-    'guide.s1.h2': 'Welcome to ParloEnglish',
+    'guide.header.p': 'Everything you need to know to get the most out of Enkita.',
+    'guide.s1.h2': 'Welcome to Enkita',
     'guide.s1.p': 'Study English vocabulary with flashcards and the spaced repetition system.',
     'guide.s2.h2': 'App Philosophy',
-    'guide.s2.li1': 'ParloEnglish is designed for Italian speakers who want to learn or consolidate English starting from their native language.',
+    'guide.s2.li1': 'Enkita is designed for Italian speakers who want to learn or consolidate English starting from their native language.',
     'guide.s2.li2': 'The method is based on active repetition of vocabulary, notable expressions, and English sentence structures.',
     'guide.s2.li3': 'The app is especially suited for those currently at A1 or A2 level who want to build a solid vocabulary step by step.',
     'guide.s2.li4': 'Studying consistently every day, even just 20 minutes, yields concrete results over the medium to long term.',
@@ -236,7 +236,7 @@ const T = {
     'support.faq.4.h3': 'I forgot my password, how do I recover it?',
     'support.faq.4.p': 'On the login screen, tap <strong>"Forgot password?"</strong> and enter your email. You\'ll receive a link to reset your password.',
     'support.faq.5.h3': 'Is the app free?',
-    'support.faq.5.p': 'ParloEnglish offers free features for all users. Some advanced features will be available with the <strong>ParloEnglish Pro</strong> subscription, coming soon.',
+    'support.faq.5.p': 'Enkita offers free features for all users. Some advanced features will be available with the <strong>Enkita Pro</strong> subscription, coming soon.',
   }
 };
 
