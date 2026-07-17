@@ -357,6 +357,41 @@ footer a:hover {
   margin-bottom: 1rem;
 }
 
+.footer-social {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 0.6rem;
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-light);
+  transition: background 0.2s, color 0.2s;
+}
+
+a.social-icon:hover {
+  background: rgba(255, 255, 255, 0.18);
+  color: var(--white);
+}
+
+.social-icon.disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.social-soon-note {
+  font-size: 0.8rem;
+  opacity: 0.6;
+  margin-bottom: 1rem;
+}
+
 .footer-copy {
   font-size: 0.85rem;
   opacity: 0.6;

@@ -19,6 +19,7 @@ const T = {
 
     'footer.support': 'Supporto',
     'footer.contact': 'Contatti',
+    'footer.social.soon': 'Instagram e TikTok in arrivo presto.',
 
     'hero.badge': 'App Android',
     'hero.h1': 'Potenzia il tuo<br /><span>vocabolario inglese o italiano</span>,<br />ogni giorno, a modo tuo.',
@@ -139,6 +140,7 @@ const T = {
 
     'footer.support': 'Support',
     'footer.contact': 'Contact',
+    'footer.social.soon': 'Instagram and TikTok coming soon.',
 
     'hero.badge': 'Android App',
     'hero.h1': 'Boost your<br /><span>English or Italian vocabulary</span>,<br />every day, your way.',
