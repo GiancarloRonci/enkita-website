@@ -243,7 +243,7 @@ const T = {
 function getLang() {
   const urlLang = new URLSearchParams(window.location.search).get('lang');
   if (urlLang === 'it' || urlLang === 'en') return urlLang;
-  return localStorage.getItem('pe_lang') || 'it';
+  return localStorage.getItem('pe_lang') || 'en';
 }
 
 function setLang(lang) {
