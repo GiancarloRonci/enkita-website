@@ -1,6 +1,6 @@
 const T = {
   it: {
-    'index.title': "Enkita — Impara l'inglese con le flashcard",
+    'index.title': "Enkita — Impara l'inglese o l'italiano con le flashcard",
     'index.meta': "Enkita è l'app per imparare l'inglese con sessioni di flashcard personalizzate. Scegli livello, categorie e direzione di studio.",
     'guide.title': 'Guida utente — Enkita',
     'support.title': 'Supporto — Enkita',
@@ -127,7 +127,7 @@ const T = {
   },
 
   en: {
-    'index.title': 'Enkita — Learn English with Flashcards',
+    'index.title': 'Enkita — Learn English or Italian with Flash Cards',
     'index.meta': 'Enkita is the app to learn English with personalized flashcard sessions. Choose level, categories, and study direction.',
     'guide.title': 'User Guide — Enkita',
     'support.title': 'Support — Enkita',
