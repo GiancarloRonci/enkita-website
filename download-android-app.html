@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" data-title-key="play.title">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex" />
+  <meta http-equiv="refresh" content="3;url=https://play.google.com/store/apps/details?id=it.parloenglish.app" />
+  <title>Redirecting to Google Play — Enkita</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <nav>
+    <a class="nav-logo" href="index.html">Enkita 🇬🇧🇮🇹</a>
+    <ul class="nav-links">
+      <li class="nav-lang">
+        <button class="lang-btn" data-lang="it" onclick="setLang('it')">🇮🇹</button>
+        <button class="lang-btn" data-lang="en" onclick="setLang('en')">🇬🇧</button>
+      </li>
+    </ul>
+  </nav>
+
+  <section class="redirect">
+    <div class="redirect-card">
+      <span class="hero-badge" data-i18n="play.badge">Welcome</span>
+      <div class="spinner" aria-hidden="true"></div>
+      <h1 data-i18n="play.h1">Taking you to Google Play…</h1>
+      <p data-i18n="play.p">Thanks for choosing Enkita! We're redirecting you to the Play Store to finish the installation.</p>
+      <a href="https://play.google.com/store/apps/details?id=it.parloenglish.app" class="btn-primary" data-i18n="play.btn">Open Google Play now</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="mailto:giancarlo.ronci@gmail.com" data-i18n="footer.contact">Contact</a>
+    </div>
+    <p class="footer-copy">© 2026 Giancarlo Ronci — Enkita</p>
+  </footer>
+
+  <script>
+    setTimeout(function () {
+      window.location.href = "https://play.google.com/store/apps/details?id=it.parloenglish.app";
+    }, 2500);
+  </script>
+  <script src="js/i18n.js"></script>
+</body>
+</html>

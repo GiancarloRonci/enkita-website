@@ -118,6 +118,12 @@ const T = {
     'support.faq.4.p': 'Nella schermata di login, tocca <strong>"Password dimenticata?"</strong> e inserisci la tua email. Riceverai un link per reimpostare la password.',
     'support.faq.5.h3': "L'app è gratuita?",
     'support.faq.5.p': 'Enkita offre funzionalità gratuite per tutti gli utenti. Alcune funzioni avanzate saranno disponibili con l\'abbonamento <strong>Enkita Pro</strong>, in arrivo prossimamente.',
+
+    'play.title': 'Reindirizzamento a Google Play — Enkita',
+    'play.badge': 'Benvenuto',
+    'play.h1': 'Ti stiamo portando su Google Play…',
+    'play.p': "Grazie per aver scelto Enkita! Ti stiamo reindirizzando al Play Store per completare l'installazione dell'app.",
+    'play.btn': 'Apri Google Play ora',
   },
 
   en: {
@@ -239,6 +245,12 @@ const T = {
     'support.faq.4.p': 'On the login screen, tap <strong>"Forgot password?"</strong> and enter your email. You\'ll receive a link to reset your password.',
     'support.faq.5.h3': 'Is the app free?',
     'support.faq.5.p': 'Enkita offers free features for all users. Some advanced features will be available with the <strong>Enkita Pro</strong> subscription, coming soon.',
+
+    'play.title': 'Redirecting to Google Play — Enkita',
+    'play.badge': 'Welcome',
+    'play.h1': 'Taking you to Google Play…',
+    'play.p': "Thanks for choosing Enkita! We're redirecting you to the Play Store to finish the installation.",
+    'play.btn': 'Open Google Play now',
   }
 };
 
