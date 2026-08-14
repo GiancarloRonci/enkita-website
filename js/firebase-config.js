@@ -10,6 +10,4 @@ export const firebaseConfig = {
 };
 
 // reCAPTCHA v3 site key for Firebase App Check (Monitor mode).
-// TODO: replace with the real site key after registering it in Google Cloud Console
-// and linking it under Firebase Console -> App Check -> Web app -> reCAPTCHA v3.
-export const recaptchaV3SiteKey = "REPLACE_WITH_RECAPTCHA_V3_SITE_KEY";
+export const recaptchaV3SiteKey = "6LdlzIUtAAAAADR3aOylz3sr9nbsLULdeoLleZj6";
