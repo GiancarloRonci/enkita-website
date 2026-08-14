@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" data-title-key="support.title">
+<html lang="en" data-title-key="signup.title" data-meta-key="signup.meta">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Support — Enkita</title>
+  <title>Create account — Enkita</title>
   <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png" />
@@ -29,40 +29,54 @@
   </nav>
 
   <div class="page-header">
-    <h1 data-i18n="support.header.h1">Support</h1>
-    <p data-i18n="support.header.p">Need help? We're here.</p>
+    <h1 data-i18n="signup.header.h1">Create your account</h1>
+    <p data-i18n="signup.header.p">One account for the website and the Enkita app.</p>
   </div>
 
   <div class="page-content">
 
-    <h2 data-i18n="support.contact.h2">Contact Us</h2>
-    <p><span data-i18n="support.contact.p1">For any issue, question, or suggestion, write to:</span><br />
-    <strong><a href="mailto:info@enkita.app">info@enkita.app</a></strong></p>
-    <p data-i18n="support.contact.p2">We will respond within 48 business hours.</p>
+    <form id="signup-form" class="auth-form" novalidate>
+      <div class="form-field">
+        <label for="signup-name" data-i18n="signup.form.name.label">Name (optional)</label>
+        <input type="text" id="signup-name" name="name" autocomplete="name" />
+      </div>
 
-    <h2 data-i18n="support.faq.h2">Frequently Asked Questions</h2>
+      <div class="form-field">
+        <label for="signup-email" data-i18n="signup.form.email.label">Email</label>
+        <input type="email" id="signup-email" name="email" autocomplete="email" required />
+      </div>
 
-    <h3 data-i18n="support.faq.1.h3">How does the repetition system work?</h3>
-    <p data-i18n="support.faq.1.p">Cards you answered correctly are postponed, while difficult ones return more often. The goal is to make you review each word just as you're about to forget it.</p>
+      <div class="form-field">
+        <label for="signup-password" data-i18n="signup.form.password.label">Password</label>
+        <input type="password" id="signup-password" name="password" autocomplete="new-password" minlength="8" required />
+        <span class="form-hint" data-i18n="signup.form.password.hint">At least 8 characters.</span>
+      </div>
 
-    <h3 data-i18n="support.faq.2.h3">Can I add custom words?</h3>
-    <p data-i18n="support.faq.2.p">Yes. From the main screen you can access the "My Cards" section to add your personal vocabulary and study it alongside the system vocabulary.</p>
+      <div class="form-field">
+        <label for="signup-confirm-password" data-i18n="signup.form.confirmPassword.label">Confirm password</label>
+        <input type="password" id="signup-confirm-password" name="confirmPassword" autocomplete="new-password" minlength="8" required />
+      </div>
 
-    <h3 data-i18n="support.faq.3.h3">How do I delete my account?</h3>
-    <p data-i18n-html="support.faq.3.p">Go to <strong>Settings → Delete Account</strong> within the app. All your data will be permanently removed within 30 days. This action is irreversible.</p>
+      <p id="signup-message" class="form-message" hidden></p>
 
-    <h3 data-i18n="support.faq.4.h3">I forgot my password, how do I recover it?</h3>
-    <p data-i18n-html="support.faq.4.p">On the login screen, tap <strong>"Forgot password?"</strong> and enter your email. You'll receive a link to reset your password.</p>
+      <button type="submit" id="signup-submit" class="btn-primary" data-i18n="signup.form.submit">Create account</button>
 
-    <h3 data-i18n="support.faq.5.h3">Is the app free?</h3>
-    <p data-i18n-html="support.faq.5.p">Enkita offers free features for all users. Some advanced features will be available with the <strong>Enkita Pro</strong> subscription, coming soon.</p>
+      <p class="form-hint" data-i18n="signup.login-hint">Already have an account? Log in directly from the Enkita app.</p>
+    </form>
+
+    <div id="signup-success" class="auth-success" hidden>
+      <h2 data-i18n="signup.success.h2">Account created!</h2>
+      <p data-i18n="signup.success.p">We've sent you a verification email. Open the Enkita app and log in with the same email and password.</p>
+    </div>
 
   </div>
 
+  <!-- FOOTER -->
   <footer>
     <div class="footer-links">
       <a href="index.html">Home</a>
       <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="support.html" data-i18n="footer.support">Support</a>
       <a href="mailto:info@enkita.app" data-i18n="footer.contact">Contact</a>
     </div>
     <div class="footer-social">
@@ -83,5 +97,6 @@
   </footer>
 
   <script src="js/i18n.js"></script>
+  <script type="module" src="js/signup.js"></script>
 </body>
 </html>

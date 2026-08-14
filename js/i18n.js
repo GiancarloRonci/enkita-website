@@ -13,6 +13,7 @@ const T = {
     'nav.support': 'Supporto',
     'nav.privacy': 'Privacy',
     'nav.whatsnew': 'Novità',
+    'nav.signup': 'Crea account',
 
     'whatsnew.header.h1': 'Novità',
     'whatsnew.header.p': 'Le ultime novità introdotte in Enkita',
@@ -123,6 +124,29 @@ const T = {
     'play.h1': 'Ti stiamo portando su Google Play…',
     'play.p': "Grazie per aver scelto Enkita! Ti stiamo reindirizzando al Play Store per completare l'installazione dell'app.",
     'play.btn': 'Apri Google Play ora',
+
+    'signup.title': 'Crea account — Enkita',
+    'signup.meta': "Crea il tuo account Enkita dal sito: potrai usarlo per accedere anche dall'app.",
+    'signup.header.h1': 'Crea il tuo account',
+    'signup.header.p': "Un unico account per il sito e per l'app Enkita.",
+    'signup.form.name.label': 'Nome (facoltativo)',
+    'signup.form.email.label': 'Email',
+    'signup.form.password.label': 'Password',
+    'signup.form.password.hint': 'Almeno 8 caratteri.',
+    'signup.form.confirmPassword.label': 'Conferma password',
+    'signup.form.submit': 'Crea account',
+    'signup.form.submitting': 'Creazione account in corso…',
+    'signup.login-hint': "Hai già un account? Accedi direttamente dall'app Enkita.",
+    'signup.success.h2': 'Account creato!',
+    'signup.success.p': "Ti abbiamo inviato un'email di verifica. Apri l'app Enkita e accedi con questa stessa email e password.",
+    'signup.error.passwordMismatch': 'Le password non coincidono.',
+    'signup.error.passwordTooShort': 'La password deve avere almeno 8 caratteri.',
+    'signup.error.invalidEmail': 'Indirizzo email non valido.',
+    'signup.error.emailInUse': 'Esiste già un account con questa email.',
+    'signup.error.weakPassword': 'Password troppo debole. Usa almeno 8 caratteri.',
+    'signup.error.network': 'Errore di rete. Controlla la connessione e riprova.',
+    'signup.error.tooManyRequests': 'Troppi tentativi. Attendi qualche minuto e riprova.',
+    'signup.error.generic': 'Si è verificato un errore. Riprova.',
   },
 
   en: {
@@ -139,6 +163,7 @@ const T = {
     'nav.support': 'Support',
     'nav.privacy': 'Privacy',
     'nav.whatsnew': "What's New",
+    'nav.signup': 'Create account',
 
     'whatsnew.header.h1': "What's New",
     'whatsnew.header.p': 'The latest updates introduced in Enkita',
@@ -249,6 +274,29 @@ const T = {
     'play.h1': 'Taking you to Google Play…',
     'play.p': "Thanks for choosing Enkita! We're redirecting you to the Play Store to finish the installation.",
     'play.btn': 'Open Google Play now',
+
+    'signup.title': 'Create account — Enkita',
+    'signup.meta': 'Create your Enkita account from the website: you can then use it to log in from the app too.',
+    'signup.header.h1': 'Create your account',
+    'signup.header.p': 'One account for the website and the Enkita app.',
+    'signup.form.name.label': 'Name (optional)',
+    'signup.form.email.label': 'Email',
+    'signup.form.password.label': 'Password',
+    'signup.form.password.hint': 'At least 8 characters.',
+    'signup.form.confirmPassword.label': 'Confirm password',
+    'signup.form.submit': 'Create account',
+    'signup.form.submitting': 'Creating account…',
+    'signup.login-hint': 'Already have an account? Log in directly from the Enkita app.',
+    'signup.success.h2': 'Account created!',
+    'signup.success.p': "We've sent you a verification email. Open the Enkita app and log in with the same email and password.",
+    'signup.error.passwordMismatch': "Passwords don't match.",
+    'signup.error.passwordTooShort': 'Password must be at least 8 characters.',
+    'signup.error.invalidEmail': 'Invalid email address.',
+    'signup.error.emailInUse': 'An account with this email already exists.',
+    'signup.error.weakPassword': 'Password is too weak. Use at least 8 characters.',
+    'signup.error.network': 'Network error. Check your connection and try again.',
+    'signup.error.tooManyRequests': 'Too many attempts. Wait a few minutes and try again.',
+    'signup.error.generic': 'An error occurred. Please try again.',
   }
 };
 
@@ -256,6 +304,12 @@ function getLang() {
   const urlLang = new URLSearchParams(window.location.search).get('lang');
   if (urlLang === 'it' || urlLang === 'en') return urlLang;
   return localStorage.getItem('pe_lang') || 'en';
+}
+
+// Looks up a single translation string for the current language, for scripts
+// (e.g. signup.js) that need translated text outside the data-i18n DOM pass.
+function t(key) {
+  return (T[getLang()] && T[getLang()][key]) || key;
 }
 
 function setLang(lang) {
