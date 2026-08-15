@@ -29,6 +29,7 @@ const T = {
     'hero.available-now': 'Disponibile ora su Google Play',
     'hero.img.alt': 'Screenshot Enkita — schermata principale',
     'hero.img.src': 'images/screenshot1.jpg',
+    'hero.mascot.bubble': 'Benvenuto in Enkita, la community dedicata alla transizione tra Italiano e Inglese',
 
     'features.title': 'Tutto quello che ti serve per imparare',
     'features.sub': 'Progettato per chi vuole studiare con costanza, senza perdere tempo.',
@@ -179,6 +180,7 @@ const T = {
     'hero.available-now': 'Available now on Google Play',
     'hero.img.alt': 'Enkita screenshot — main screen',
     'hero.img.src': 'images/screenshot1_en.jpeg',
+    'hero.mascot.bubble': 'Welcome to Enkita, the community dedicated to the transition between Italian and English',
 
     'features.title': 'Everything you need to learn',
     'features.sub': 'Designed for those who want to study consistently, without wasting time.',
