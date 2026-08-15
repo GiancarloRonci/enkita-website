@@ -43,6 +43,14 @@ nav {
   font-weight: 700;
   color: var(--blue-primary);
   text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.nav-logo-flags {
+  display: inline-flex;
+  gap: 4px;
 }
 
 .nav-links {
@@ -209,6 +217,37 @@ nav {
   height: 0;
   border: 8px solid transparent;
   border-top-color: var(--white);
+}
+
+.mascot-lang-badge {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 14px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--white);
+  padding: 8px 14px;
+  border-radius: 100px;
+  box-shadow: 0 10px 24px rgba(59, 110, 202, 0.25);
+  font-size: 1.15rem;
+  white-space: nowrap;
+}
+
+.mascot-lang-badge .swap-arrow {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--blue-primary);
+}
+
+.flag-icon {
+  width: 22px;
+  height: 15px;
+  border-radius: 3px;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08);
+  display: block;
 }
 
 .mascot-hero img {
@@ -523,14 +562,14 @@ a.social-icon:hover {
 
   .hero-image {
     padding-right: 0;
-    padding-bottom: 156px;
+    padding-bottom: 206px;
   }
 
   .mascot-hero {
     width: 140px;
     height: 140px;
     top: auto;
-    bottom: 0;
+    bottom: 50px;
     right: auto;
     left: 50%;
     transform: translateX(-50%);
@@ -539,6 +578,11 @@ a.social-icon:hover {
   .mascot-bubble {
     width: 170px;
     font-size: 0.75rem;
+  }
+
+  .mascot-lang-badge {
+    font-size: 1rem;
+    padding: 6px 12px;
   }
 }
 
