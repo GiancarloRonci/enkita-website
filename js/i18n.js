@@ -7,6 +7,7 @@ const T = {
     'whatsnew.title': 'Novità — Enkita',
 
     'nav.features': 'Funzionalità',
+    'nav.community': 'Community',
     'nav.pricing': 'Prezzi',
     'nav.download': 'Download',
     'nav.guide': 'Guida',
@@ -21,7 +22,7 @@ const T = {
     'footer.support': 'Supporto',
     'footer.contact': 'Contatti',
 
-    'hero.badge': 'App Android',
+    'hero.badge': 'App + Social',
     'hero.h1': 'Potenzia il tuo<br /><span>vocabolario inglese o italiano</span>,<br />ogni giorno, a modo tuo.',
     'hero.p': 'Sessioni di flashcard personalizzate per livello, categoria e direzione di studio. Tieni traccia dei tuoi progressi e raggiungi i tuoi obiettivi quotidiani.',
     'hero.btn.primary': "Scarica l'app",
@@ -29,7 +30,7 @@ const T = {
     'hero.available-now': 'Disponibile ora su Google Play',
     'hero.img.alt': 'Screenshot Enkita — schermata principale',
     'hero.img.src': 'images/screenshot1.jpg',
-    'hero.mascot.bubble': 'Benvenuto in Enkita, la community dedicata alla transizione tra Italiano e Inglese',
+    'hero.mascot.bubble': "Benvenuto in Enkita: app + social = una community per imparare l'inglese insieme.",
 
     'features.title': 'Tutto quello che ti serve per imparare',
     'features.sub': 'Progettato per chi vuole studiare con costanza, senza perdere tempo.',
@@ -45,6 +46,17 @@ const T = {
     'feature.5.p': 'Aggiungi le tue parole e costruisci un dizionario personale da studiare insieme al vocabolario di sistema.',
     'feature.6.h3': 'Statistiche di studio',
     'feature.6.p': 'Visualizza il tempo dedicato allo studio e il numero di carte revisionate oggi, tutto nella schermata principale.',
+
+    'community.title': 'La community sui social',
+    'community.sub': "Non solo l'app: segui Enkita sui social per contenuti, consigli di vocabolario e le novità della community.",
+    'community.facebook.h3': 'Facebook',
+    'community.facebook.p': "Aggiornamenti, novità dell'app e spazio per la community.",
+    'community.instagram.h3': 'Instagram',
+    'community.instagram.p': 'Foto, reel e vocaboli illustrati per imparare un po\' di inglese ogni giorno.',
+    'community.tiktok.h3': 'TikTok',
+    'community.tiktok.p': 'Video brevi con parole ed espressioni utili, pensati per restare in testa.',
+    'community.youtube.h3': 'YouTube',
+    'community.youtube.p': 'Contenuti più lunghi per approfondire grammatica, pronuncia e vocabolario.',
 
     'pricing.title': 'Prezzi',
     'pricing.sub': 'Semplice e trasparente: oggi gratis, e resterà alla portata di tutti anche in futuro.',
@@ -158,6 +170,7 @@ const T = {
     'whatsnew.title': "What's New — Enkita",
 
     'nav.features': 'Features',
+    'nav.community': 'Community',
     'nav.pricing': 'Pricing',
     'nav.download': 'Download',
     'nav.guide': 'Guide',
@@ -172,7 +185,7 @@ const T = {
     'footer.support': 'Support',
     'footer.contact': 'Contact',
 
-    'hero.badge': 'Android App',
+    'hero.badge': 'App + Social',
     'hero.h1': 'Boost your<br /><span>English or Italian vocabulary</span>,<br />every day, your way.',
     'hero.p': 'Personalized flashcard sessions by level, category, and study direction. Track your progress and reach your daily goals.',
     'hero.btn.primary': 'Download the app',
@@ -180,7 +193,7 @@ const T = {
     'hero.available-now': 'Available now on Google Play',
     'hero.img.alt': 'Enkita screenshot — main screen',
     'hero.img.src': 'images/screenshot1_en.jpeg',
-    'hero.mascot.bubble': 'Welcome to Enkita, the community dedicated to the transition between Italian and English',
+    'hero.mascot.bubble': 'Welcome to Enkita: app + social = one community for learning English together.',
 
     'features.title': 'Everything you need to learn',
     'features.sub': 'Designed for those who want to study consistently, without wasting time.',
@@ -196,6 +209,17 @@ const T = {
     'feature.5.p': 'Add your own words and build a personal dictionary to study alongside the system vocabulary.',
     'feature.6.h3': 'Study Statistics',
     'feature.6.p': 'View time spent studying and the number of cards reviewed today, all on the main screen.',
+
+    'community.title': 'Join the community on social',
+    'community.sub': 'More than an app: follow Enkita on social media for content, vocabulary tips, and community updates.',
+    'community.facebook.h3': 'Facebook',
+    'community.facebook.p': 'Updates, app news, and a space for the community.',
+    'community.instagram.h3': 'Instagram',
+    'community.instagram.p': 'Photos, reels, and illustrated vocabulary to learn a bit of English every day.',
+    'community.tiktok.h3': 'TikTok',
+    'community.tiktok.p': 'Short videos with useful words and expressions, made to stick.',
+    'community.youtube.h3': 'YouTube',
+    'community.youtube.p': 'Longer videos to go deeper on grammar, pronunciation, and vocabulary.',
 
     'pricing.title': 'Pricing',
     'pricing.sub': 'Simple and transparent: free today, and it will stay affordable for everyone in the future.',

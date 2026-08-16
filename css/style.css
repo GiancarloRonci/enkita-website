@@ -345,6 +345,12 @@ nav {
   font-size: 0.95rem;
 }
 
+a.feature-card {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
 /* DOWNLOAD */
 .download {
   background: linear-gradient(135deg, var(--blue-primary), var(--blue-dark));
