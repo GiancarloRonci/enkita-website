@@ -6,6 +6,7 @@ const T = {
     'support.title': 'Supporto — Enkita',
     'whatsnew.title': 'Novità — Enkita',
 
+    'nav.app': 'App',
     'nav.features': 'Funzionalità',
     'nav.community': 'Community',
     'nav.pricing': 'Prezzi',
@@ -169,6 +170,7 @@ const T = {
     'support.title': 'Support — Enkita',
     'whatsnew.title': "What's New — Enkita",
 
+    'nav.app': 'App',
     'nav.features': 'Features',
     'nav.community': 'Community',
     'nav.pricing': 'Pricing',

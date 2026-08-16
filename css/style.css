@@ -70,6 +70,105 @@ nav {
   color: var(--blue-primary);
 }
 
+.nav-links > li {
+  display: flex;
+  align-items: center;
+}
+
+.nav-cta {
+  background: var(--blue-primary);
+  color: var(--white) !important;
+  padding: 8px 18px;
+  border-radius: 100px;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.nav-cta:hover {
+  background: var(--blue-dark);
+  color: var(--white) !important;
+}
+
+/* NAV DROPDOWN */
+.nav-dropdown {
+  position: relative;
+}
+
+.nav-dropdown-toggle {
+  background: none;
+  border: none;
+  font: inherit;
+  color: var(--text-mid);
+  font-size: 0.95rem;
+  cursor: pointer;
+  padding: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition: color 0.2s;
+}
+
+.nav-dropdown-toggle::after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid currentColor;
+  opacity: 0.6;
+}
+
+.nav-dropdown-toggle:hover,
+.nav-dropdown:hover .nav-dropdown-toggle,
+.nav-dropdown:focus-within .nav-dropdown-toggle {
+  color: var(--blue-primary);
+}
+
+.nav-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%) translateY(4px);
+  background: var(--white);
+  border: 1px solid #E2E8F0;
+  border-radius: 12px;
+  box-shadow: 0 12px 24px rgba(15, 23, 42, 0.1);
+  list-style: none;
+  min-width: 170px;
+  padding: 8px;
+  margin-top: 14px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.15s ease, transform 0.15s ease, visibility 0.15s;
+}
+
+.nav-dropdown-menu::before {
+  content: '';
+  position: absolute;
+  top: -14px;
+  left: 0;
+  right: 0;
+  height: 14px;
+}
+
+.nav-dropdown:hover .nav-dropdown-menu,
+.nav-dropdown:focus-within .nav-dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+
+.nav-dropdown-menu a {
+  display: block;
+  padding: 8px 12px;
+  border-radius: 8px;
+  white-space: nowrap;
+}
+
+.nav-dropdown-menu a:hover {
+  background: var(--blue-light);
+}
+
 /* HERO */
 .hero {
   background: linear-gradient(135deg, var(--blue-light) 0%, #dde8ff 100%);
