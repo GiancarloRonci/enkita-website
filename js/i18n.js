@@ -58,6 +58,8 @@ const T = {
     'community.tiktok.p': 'Video brevi con parole ed espressioni utili, pensati per restare in testa.',
     'community.youtube.h3': 'YouTube',
     'community.youtube.p': 'Contenuti più lunghi per approfondire grammatica, pronuncia e vocabolario.',
+    'community.spotify.h3': 'Spotify',
+    'community.spotify.p': "Ascolta il podcast di Enkita per esercitare l'inglese ovunque ti trovi.",
 
     'pricing.title': 'Prezzi',
     'pricing.sub': 'Semplice e trasparente: oggi gratis, e resterà alla portata di tutti anche in futuro.',
@@ -222,6 +224,8 @@ const T = {
     'community.tiktok.p': 'Short videos with useful words and expressions, made to stick.',
     'community.youtube.h3': 'YouTube',
     'community.youtube.p': 'Longer videos to go deeper on grammar, pronunciation, and vocabulary.',
+    'community.spotify.h3': 'Spotify',
+    'community.spotify.p': 'Listen to the Enkita podcast to practice your English on the go.',
 
     'pricing.title': 'Pricing',
     'pricing.sub': 'Simple and transparent: free today, and it will stay affordable for everyone in the future.',
